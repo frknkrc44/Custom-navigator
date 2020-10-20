@@ -180,6 +180,10 @@ class _CustomNavigatorState extends State<CustomNavigator>
     }());
     return result;
   }
+  
+  Future<bool> didPushRouteInformation(RouteInformation routeInformation) async {
+    return await Future.value(true);
+  }
 }
 
 class PageRoutes {
